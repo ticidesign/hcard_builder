@@ -8,5 +8,5 @@ export default styled.main`
   flex-flow: row nowrap;
   justify-content: center;
   align-items: stretch;
-  background: url('/design.jpg') no-repeat top left;
 `;
+//  background: url('/design.jpg') no-repeat top left;

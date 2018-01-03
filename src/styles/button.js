@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.button`
-  width: calc(50% - 20px);
-  margin-right: 20px;
+  width: calc(50% - 10px);
   font-family: "Merriweather Sans";
   font-size: 20px;
   font-weight: 400;

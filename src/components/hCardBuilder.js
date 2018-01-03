@@ -10,7 +10,7 @@ import Button from '../styles/button';
 export default class hCardBuilder extends Component {
   render() {
     return(
-      <Section color='white'>
+      <Section color='white' width='48%'>
         <H1>hCard Builder</H1>
         <Form>
           <H2>Personal Details</H2>
