@@ -9,4 +9,7 @@ export default styled.section`
   justify-content: center;
   align-items: flex-start;
   background-color: ${props => props.color};
+  @media only screen and (max-width: 1024px) {
+    width: calc(90% - 80px);
+  }
 `;

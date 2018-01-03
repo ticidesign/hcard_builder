@@ -9,4 +9,7 @@ export default styled.label`
   text-transform: uppercase;
   display:flex;
   flex-flow: column nowrap;
+  @media only screen and (max-width: 768px) {
+    width: calc(100% - 10px);
+  }
 `;

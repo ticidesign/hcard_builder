@@ -17,5 +17,8 @@ export default styled.button`
   cursor: pointer;
   &:hover{
     transform: scale(1.1);
+  }  
+  @media only screen and (max-width: 768px) {
+    width: calc(100% - 10px);
   }
 `;

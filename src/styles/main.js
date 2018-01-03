@@ -8,5 +8,9 @@ export default styled.main`
   flex-flow: row nowrap;
   justify-content: center;
   align-items: stretch;
+  @media only screen and (max-width: 1024px) {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 `;
 //  background: url('/design.jpg') no-repeat top left;

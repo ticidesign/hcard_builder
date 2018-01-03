@@ -10,5 +10,4 @@ export default styled.h3`
   text-transform: uppercase;
   line-height: 1.2;
   text-align: ${props => props.align};
-  margin-top: -63px;
 `;
