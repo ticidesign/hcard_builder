@@ -16,7 +16,7 @@ once fully verified working by the testing team.
 (**Note:** If you don't have Photoshop available, you can see examples of the
 empty & completed states in the two provided `.png` files)
 
-[[https://github.com/ticidesign/hcard_builder/blob/master/public/design.jpg]]
+![alt tag](https://github.com/ticidesign/hcard_builder/blob/master/public/design.jpg)
 
 Allow approximately 4-5 hours to complete the task.
 
