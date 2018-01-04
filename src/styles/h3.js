@@ -9,5 +9,5 @@ export default styled.h3`
   color: rgb(149, 165, 166);
   text-transform: uppercase;
   line-height: 1.2;
-  text-align: ${props => props.align};
+  text-align: ${props => props.align ? props.align : 'left'};
 `;

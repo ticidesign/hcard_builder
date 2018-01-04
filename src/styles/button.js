@@ -8,8 +8,8 @@ export default styled.button`
   color: #ffffff;
   border: none;
   border-radius: 3px;
-  background: ${props => props.bgcolor};
-  box-shadow: 0px 4px 0px 0px ${props => props.shadow};
+  background: ${props => props.bgcolor ? props.bgcolor : '#000000'};
+  box-shadow: 0px 4px 0px 0px ${props => props.shadow ? props.shadow : '#333333'};
   margin-top: 18px;
   padding: 6px 12px;
   transform: perspective(1px) translateZ(0);

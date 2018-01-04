@@ -12,9 +12,4 @@ export default class hCardPreview extends Component {
       </Section>
     )
   }
-}        
-// {
-//   Object
-//     .keys(this.props.info)
-//     .map(key => <CardContainer key={key} index={key} info={this.props.info[key]}/>)
-// }
+}
