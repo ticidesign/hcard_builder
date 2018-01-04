@@ -13,4 +13,3 @@ export default styled.main`
     align-items: center;
   }
 `;
-//  background: url('/design.jpg') no-repeat top left;

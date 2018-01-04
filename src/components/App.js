@@ -29,12 +29,12 @@ export default class App extends Component {
   render() {
     return (
       <Main>
-        <HCardPreview info={this.state.info} />
         <HCardBuilder
           info={this.state.info} 
           // showCard={this.showCard} 
           updateCard={this.updateCard}
         />
+        <HCardPreview info={this.state.info} />
       </Main>
     );
   }

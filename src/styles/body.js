@@ -27,7 +27,10 @@ injectGlobal`
   }
 
   #root, #root > div {
-    width: 100%;
+    width: auto;
     min-height: 100%;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 `;
