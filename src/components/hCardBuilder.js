@@ -41,32 +41,12 @@ export default class hCardBuilder extends Component {
     reader.readAsDataURL(file)
   }
 
-  // createhCard(event){
-  //   event.preventDefault();
-  //   const info = {
-  //     givenname: this.givenname.value,
-  //     surname: this.surname.value,
-  //     email: this.email.value,
-  //     phone: this.phone.value,
-  //     house: this.house.value,
-  //     street: this.street.value,
-  //     suburb: this.suburb.value,
-  //     state: this.place.value,
-  //     postcode: this.postcode.value,
-  //     country: this.country.value,
-  //   }
-  //   this.props.showCard(info);
-  //   //Reset form after submit
-  //   // this.cardForm.reset();
-  // }
-
   render() {
     return(
       <Section color='white' width='48%'>
         <H1>hCard Builder</H1>
          <Form 
           innerRef={(input) => this.cardForm = input}
-          // onSubmit={(e) => this.createhCard(e)}
          >
           <H2>Personal Details</H2>
           <Label htmlFor='given_name'>Given Name
