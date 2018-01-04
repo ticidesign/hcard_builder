@@ -10,6 +10,7 @@ export default styled.section`
   align-items: flex-start;
   background-color: ${props => props.color};
   @media only screen and (max-width: 1024px) {
-    width: calc(90% - 80px);
+    width: calc(100% - 40px);
+    padding: 20px;
   }
 `;

@@ -26,7 +26,7 @@ export default styled.div`
   }
   span:nth-of-type(2n + 1){
     width: 20%;
-    margin-right: 0;
+    margin-right: 8px;
     font-family: "Merriweather Sans";
     font-size: 11px;
     font-weight: 400;

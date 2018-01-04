@@ -26,7 +26,8 @@ injectGlobal`
     background-color: lightblue;
   }
 
-  #react-root, #react-root > div {
+  #root, #root > div {
+    width: 100%;
     min-height: 100%;
   }
 `;
