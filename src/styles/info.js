@@ -16,21 +16,4 @@ export default styled.div`
     margin-bottom: 13px;
     height: 16px;
   }
-  span {
-    display: inline-block;
-    width: auto;
-    font-family: "Merriweather";
-    font-size: 16px;
-    color: #000000;
-    margin-right: 20px;
-  }
-  span:nth-of-type(2n + 1){
-    width: 20%;
-    margin-right: 8px;
-    font-family: "Merriweather Sans";
-    font-size: 11px;
-    font-weight: 400;
-    color: #34495e;
-    text-transform: uppercase;
-  }
 `;

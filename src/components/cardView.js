@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Card from '../styles/card';
 import Header from '../styles/header';
+import Title from '../styles/title';
+import Img from '../styles/img';
 import Container from '../styles/info';
+import Wrapper from '../styles/wrapper';
+import Detail from '../styles/detail';
+import Result from '../styles/result';
 
 export default class CardContainer extends Component {
   render() {
@@ -9,39 +14,39 @@ export default class CardContainer extends Component {
     return(
       <Card>
         <Header>
-          <img 
+          <Img 
             src={info.upload ? info.upload : 'avatar.jpg'} 
             alt={info.given_name ? info.given_name : 'Avatar'} 
           />
-          <h1>{info.given_name} {info.surname}</h1>
+          <Title>{info.given_name} {info.surname}</Title>
         </Header>
         <Container>
-          <div>
-            <span>Email</span>
-            <span>{info.email}</span>
-          </div>
+          <Wrapper>
+            <Detail>Email</Detail>
+            <Result>{info.email}</Result>
+          </Wrapper>
 
-          <div>
-            <span>Phone</span>
-            <span>{info.phone}</span>
-          </div>
+          <Wrapper>
+            <Detail>Phone</Detail>
+            <Result>{info.phone}</Result>
+          </Wrapper>
 
-          <div>
-            <span>Address</span>
-            <span>{info.house} {info.street}</span>
-          </div>
+          <Wrapper>
+            <Detail>Address</Detail>
+            <Result>{info.house} {info.street}</Result>
+          </Wrapper>
 
-          <div>
-            <span></span>
-            <span>{info.suburb} {info.place}</span>
-          </div>
+          <Wrapper>
+            <Detail></Detail>
+            <Result>{info.suburb} {info.place}</Result>
+          </Wrapper>
 
-          <div>
-            <span>Postcode</span>
-            <span>{info.postcode}</span>
-            <span>Country</span>
-            <span>{info.country}</span>
-          </div>
+          <Wrapper>
+            <Detail>Postcode</Detail>
+            <Result>{info.postcode}</Result>
+            <Detail>Country</Detail>
+            <Result>{info.country}</Result>
+          </Wrapper>
 
         </Container>
 
